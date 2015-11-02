@@ -2,7 +2,6 @@
 
 Utilisation de la logique d'inuitcss et de ses composants: https://github.com/inuitcss
 
-
 ## Architecture dossier 
 
  - *root*
@@ -49,3 +48,13 @@ Utilisation de la logique d'inuitcss et de ses composants: https://github.com/in
    - _trumps.print.scss
    - _trumps.widths.scss
   - main.scss
+
+
+Détails: 
+ - Settings: Variables globals, paramétre de l'ensemble du site, changement de configuration, etc.
+ - Tools: Mixins et fonctions de l'ensemble du site.
+ - Generic: faible spécification,  régles globals (e.g. resets).
+ - Base: Éléments HTML déclassés (e.g. a {}, blockquote {}, address {}).
+ - Objects: Objets, abstractions, et design patterns (e.g. .media {}).
+ - Components: individuel, élément d' UI complet(e.g. .carousel {}). C'est la seule couche dont Inuit.scss n'utilise pas.
+ - Trumps: Haute spécification, sélécteurs trés explicites. Overrides et helper classes (e.g. .hidden {})
