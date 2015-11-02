@@ -56,5 +56,5 @@ Détails:
  - Generic: faible spécification,  régles globals (e.g. resets).
  - Base: Éléments HTML déclassés (e.g. a {}, blockquote {}, address {}).
  - Objects: Objets, abstractions, et design patterns (e.g. .media {}).
- - Components: individuel, élément d' UI complet(e.g. .carousel {}). C'est la seule couche dont Inuit.scss n'utilise pas.
+ - Components: individuel, élément d'UI complet(e.g. .carousel {}). C'est la seule couche dont Inuit.scss n'utilise pas.
  - Trumps: Haute spécification, sélécteurs trés explicites. Overrides et helper classes (e.g. .hidden {})
